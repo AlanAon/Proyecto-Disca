@@ -1,0 +1,128 @@
+.contacto__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+    padding-top: 0;
+    margin-bottom: 30px;
+    width: 100%;
+    max-width: 1100px;
+}
+.contacto__title {
+    text-align: center;
+    font-size: 3rem;
+}
+.contacto__title1 {
+    padding: 20px;
+    padding-top: 0;
+    margin-bottom: 30px;
+}
+.contacto__info, .formulario {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.formulario {
+    border-left: 1px solid red;
+    padding-top: 0;
+}
+.formulario__label, .formulario__input-text, .formulario__textarea {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+.formulario__input-text {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.formulario__textarea {
+    width: 100%;
+    height: 150px;
+}
+.botonEnviar {
+    padding: 15px;
+    font-size: 16px;
+    margin-top: 10px;
+    border: none;
+    outline: 0px;
+    background: orange;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+.mapa {
+    @include flexCenter;
+    width: 40%;
+    margin-bottom: 50px;
+    margin: auto auto;
+}
+.contacto__title-mapa {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 15px;
+}
+@media (max-width:768px){
+.contacto__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3em;
+}
+.formulario{
+    border-left: none;
+    border-top: 1px solid red;
+    padding-top: 30px;
+    margin-top: 15px;
+    width: 100%;
+    height: auto;
+}
+.contacto__info p{
+    font-size: 1em;
+    width: 100%;
+    height: auto;
+}
+.formulario__textarea{
+    width: 100%;
+    height: 200px;
+}
+.contacto__title{
+    font-size: 2rem;
+}
+.mapa{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    margin: auto auto;
+    }
+}
+@media (max-width:480px){
+.contacto__container{
+    grid-template-columns: 1fr;
+}
+.contacto__info p{
+    font-size: .75em;
+}
+.contacto__title{
+    font-size: 1.5rem;
+}
+.formulario{
+    border-top: 1px solid red;
+    border-left: none;
+    margin-bottom: 10px;
+}
+.formulario__textarea{
+    width: 100%;
+    height: 200px;
+}
+.mapa{
+width: 60%;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-bottom: 50px;
+margin: auto auto;
+}
+}

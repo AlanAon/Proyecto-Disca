@@ -1,0 +1,6 @@
+.hero__parrafo{
+    margin-bottom: 30px;
+}
+.about__imgs{
+    @extend .hero__parrafo;
+    }

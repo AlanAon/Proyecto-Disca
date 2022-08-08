@@ -1,0 +1,38 @@
+.nosotros {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .nosotros__title {
+    font-weight: bold;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+  }
+  
+  .nosotros__img {
+    width: 250px;
+    height: 250px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  @media (max-width:768px){
+  .nosotros__img{
+    width: 200px;
+    height: 200px;
+}
+.nosotros__title{
+    font-size: 1.5em;
+}
+}
+@media (max-width:480px){
+.nosotros__img{
+  width: 150px;
+  height: 150px;
+}
+.nosotros__title{
+  font-size: 1.3em;
+}
+}
