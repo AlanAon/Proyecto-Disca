@@ -9,18 +9,6 @@
     display: grid;
     grid-template-rows: 100px 1fr;
     color: #fff;
-    @include tablet{
-      .hero1 {
-        width: 100%;
-        min-height: 500px;
-        max-height: 600px;
-        position: relative;
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 100px 1fr;
-        color: #fff;
-    }
-    }
   }
   
   .hero1::before {

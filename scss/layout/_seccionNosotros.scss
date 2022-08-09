@@ -2,14 +2,16 @@
     text-align: center;
     margin-bottom: 20px;
   }
-  
-  .nosotros__title {
+.nosotros__title {
     font-weight: bold;
     font-size: 1.8em;
     margin-bottom: 10px;
   }
-  
-  .nosotros__img {
+.about{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.nosotros__img {
     width: 250px;
     height: 250px;
     -o-object-fit: cover;
@@ -18,13 +20,17 @@
     margin: auto;
     margin-bottom: 20px;
   }
-  @media (max-width:768px){
+@media (max-width:768px){
   .nosotros__img{
     width: 200px;
     height: 200px;
 }
+.hero__title{
+  text-align: center;
+}
 .nosotros__title{
     font-size: 1.5em;
+    text-align: center;
 }
 }
 @media (max-width:480px){
@@ -32,7 +38,11 @@
   width: 150px;
   height: 150px;
 }
+.hero__title{
+  text-align: center;
+}
 .nosotros__title{
   font-size: 1.3em;
+  text-align: center;
 }
 }
