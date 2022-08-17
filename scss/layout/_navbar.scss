@@ -4,9 +4,6 @@
     display: flex;
     align-items: center;
 }
-.nav__title{
-    font-weight: 300;
-}
 .nav__link{
     margin-left: auto;
     padding: 0;
@@ -14,6 +11,11 @@
     grid-auto-flow: column;
     grid-auto-columns: max-content;
     gap: 2em;
+}
+.nav__logo{
+    font-size: 30px;
+    text-decoration: none;
+    color: #fff;
 }
 .nav__items{
     list-style: none;
