@@ -469,16 +469,14 @@ body {
   cursor: pointer;
   transition: all 300ms ease;
 }
-
 .mapa {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 40%;
   margin-bottom: 50px;
-  margin: auto auto;
+  margin: auto auto 30px;
 }
-
 .contacto__title-mapa {
   font-size: 1.5rem;
   text-align: center;
